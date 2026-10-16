@@ -292,6 +292,20 @@ image reference, PipelineRun, GitOps Job and Argo CD Application names.
 Detailed design, secret formats and operational boundaries are documented in the
 [`AppDeployer module README`](operators/appdeployer/README.md).
 
+## Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md). Open an issue before significant changes, keep pull requests small, and update contracts and tests together.
+
+When collaborating, attribute commits to every author with `Co-authored-by` trailers ([GitHub docs](https://docs.github.com/en/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/creating-a-commit-with-multiple-authors)):
+
+```bash
+git commit -m "Describe the change.
+
+Co-authored-by: Name <name@example.com>"
+```
+
+Use the email address associated with each co-author's GitHub account (or their `no-reply` address if they keep it private).
+
 ## License
 
 Apache-2.0. See [LICENSE](LICENSE).
